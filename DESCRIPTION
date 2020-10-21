@@ -1,0 +1,15 @@
+Package: hackathon
+Title: Package Test
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Loubna",
+           family = "El Madouri",
+           role = c("aut", "cre"),
+           email = "lou.e.m.lem@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Contient la fonction MakeTop.
+Encoding: UTF-8
+LazyData: true
+License: GPL-3 + file LICENSE 
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
