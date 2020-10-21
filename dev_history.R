@@ -33,4 +33,7 @@ usethis::use_readme_rmd()
 #Générer le mark down chaque fois que le readme est édité
 rmarkdown::render("README.Rmd")
 
+#création site web en md du package
+usethis::use_pkgdown()
 
+pkgdown::build_site()

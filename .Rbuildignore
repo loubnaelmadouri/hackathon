@@ -4,3 +4,7 @@
 ^README\.Rmd$
 ^README\.html$
 ^README\.md$
+^\.Rproj\.user$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
