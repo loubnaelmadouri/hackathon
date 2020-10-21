@@ -4,7 +4,7 @@ hackathon
 =========
 
 <!-- badges: start -->
-[![R build status](https://github.com/loubnaelmadouri/hackathon/workflows/R-CMD-check/badge.svg)](https://github.com/loubnaelmadouri/hackathon/actions) <!-- badges: end -->
+[![R build status](https://github.com/loubnaelmadouri/hackathon/workflows/R-CMD-check/badge.svg)](https://github.com/loubnaelmadouri/hackathon/actions) [![DOI](https://zenodo.org/badge/305985537.svg)](https://zenodo.org/badge/latestdoi/305985537) <!-- badges: end -->
 
 The goal of hackathon is to test a package structure
 

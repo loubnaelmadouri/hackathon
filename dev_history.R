@@ -45,3 +45,4 @@ rmarkdown::render("README.Rmd")
 #récupération du fichier de configuration pour définir l'action que GH doit réaliser pour déployer le site
 usethis:::use_github_action(url = "https://raw.githubusercontent.com/r-lib/actions/master/examples/pkgdown.yaml")
 
+
