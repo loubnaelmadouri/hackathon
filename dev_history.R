@@ -11,6 +11,9 @@ usethis::use_package_doc()
 
 usethis::use_build_ignore("dev_history.R")
 usethis::use_build_ignore("hackathon.Rproj")
+usethis::use_build_ignore("README.html")
+usethis::use_git_ignore("README.html")
+usethis::use_build_ignore("README.md")
 
 usethis::use_r("makeTop")
 
@@ -19,3 +22,8 @@ devtools::document()
 attachment::att_amend_desc() #ajoute les packages dans la description
 
 devtools::check()
+
+usethis::use_readme_rmd()
+
+#Générer le mark down chaque fois que le readme est édité
+rmarkdown::render("README.Rmd")
