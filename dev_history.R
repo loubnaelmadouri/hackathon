@@ -37,3 +37,8 @@ rmarkdown::render("README.Rmd")
 usethis::use_pkgdown()
 
 pkgdown::build_site()
+
+#Check le package à chaque push
+usethis::use_github_action_check_full()
+rmarkdown::render("README.Rmd")
+

@@ -4,7 +4,8 @@ hackathon
 =========
 
 <!-- badges: start -->
-<!-- badges: end -->
+[![R build status](https://github.com/loubnaelmadouri/hackathon/workflows/R-CMD-check/badge.svg)](https://github.com/loubnaelmadouri/hackathon/actions) <!-- badges: end -->
+
 The goal of hackathon is to test a package structure
 
 Installation
