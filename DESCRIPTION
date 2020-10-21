@@ -8,7 +8,7 @@ Authors@R:
            email = "lou.e.m.lem@gmail.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: Contient la fonction MakeTop.
-License: GPL-3 + file LICENSE
+License: GPL-3 
 Imports: 
     dplyr,
     utils

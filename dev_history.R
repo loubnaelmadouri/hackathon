@@ -10,9 +10,12 @@ usethis::use_roxygen_md()
 usethis::use_package_doc()
 
 usethis::use_build_ignore("dev_history.R")
+usethis::use_build_ignore("hackathon.Rproj")
 
 usethis::use_r("makeTop")
 
 #Génère la documentation
 devtools::document()
 attachment::att_amend_desc() #ajoute les packages dans la description
+
+devtools::check()
